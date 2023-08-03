@@ -49,8 +49,9 @@ header img {
 @media screen and (max-width:1024px){
     .menu1{display: none;}
     .hb{display: inline;}
-    .hb:hover ~ .menuHB{
+    .hb:active ~ .menuHB{
         display: block;
+        transition-duration: 5s;
     }
     .menuHB { margin-top: 20px;}
 
